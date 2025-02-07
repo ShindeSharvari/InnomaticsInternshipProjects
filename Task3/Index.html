@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    
+    <div id="main">
+
+        <!-- Atm Withdrawal  -->
+        <section class="containers" id="Atm-Withdrawal">
+        <h1>ATM Withdrawal System</h1>
+        <form action="" class="forms" id="Form-atm">
+
+        <label class="lables" for="balance">Balance:</label>
+        <input class="inputFeilds" type="number" id="balance" value="7000" readonly><br>
+
+        <label class="lables" for="amount">Enter Withdrawal Amount:</label>
+        <input class="inputFeilds" type="number" id="amount" placeholder="Enter amount in multiples of 100"><br>
+    
+        <label class="lables" for="enteredPin">Enter PIN:</label>
+        <input class="inputFeilds" type="password" id="enteredPin" placeholder="Enter your PIN"><br>
+    
+        <p><strong>Testing PIN:</strong> <span id="testingPin">7001</span></p><br>
+    
+        <button type="button" id="withdrawButton" class="button">Withdraw</button>
+        </form>
+        <div id="result1" class="result"></div>
+       </section>
+
+    <section class="containers" >
+        <h1>Online Shopping System</h1>
+        <form action="" class="forms">
+
+        <label class="lables" for="totalAmount">Enter Total Amount:</label>
+        <input class="inputFeilds" type="number" id="totalAmount" placeholder="Enter total amount of shopping"><br>
+    
+        <button type="button" id="buyButton" class="button">Payable</button>
+        </form>
+        <div id="result2" class="result"></div>
+    </section>
+
+
+    <!-- Student Grading System with Extra Credit -->
+    <section class="containers" >
+        <h1>Student Grading System</h1>
+        <form action="" class="forms">
+
+        <label class="lables" for="marks">Enter Marks:</label>
+        <input class="inputFeilds" type="number" id="marks" placeholder="Enter marks "><br> 
+
+        <label class="lables" for="attendance">Enter Attendance:</label>
+        <input class="inputFeilds" type="number" id="attendance" placeholder="Enter Attendance "><br>
+    
+        <button type="button" id="resultButton" class="button">Result</button>
+        </form>
+        <div id="result3" class="result"></div>
+    </section>
+
+    <!-- Smart Traffic Light System -->
+    <section class="containers" >
+        <h1>Smart Traffic Light System</h1>
+        <form action="" class="forms">
+
+        <label class="lables" for="traffic">Traffic Density:</label>
+        <select class="inputFeilds" id="traffic">
+            <option value="Heavy Traffic">Heavy Traffic</option>
+            <option value="Moderate Traffic">Moderate Traffic</option>
+            <option value="Light Traffic">Light Traffic</option>
+        </select><br> 
+
+        <button type="button" id="density" class="button">Result</button>
+        </form>
+        <div id="result4" class="result"></div>
+    </section>
+
+    <!-- Movie Ticket Pricing with Time and Age Discount  -->
+    <section class="containers" >
+        <h1>Movie Ticket Pricing with Time and Age Discount</h1>
+        <form action="" class="forms">
+
+            <label class="lables" for="age">Enter Age:</label>
+            <input class="inputFeilds" type="number" id="age" placeholder="Enter age"><br> 
+    
+            <label class="lables" for="time">Enter Time:</label>
+            <input class="inputFeilds" type="number" id="time" placeholder="Enter time in 24 hour format "><br>
+
+        <button type="button" id="calculate" class="button">Price Check</button>
+        </form>
+        <div id="result5" class="result"></div>
+    </section>
+
+    <!-- Job Application Filter -->
+    <section class="containers" >
+        <h1>Job Application Filter</h1>
+        <form action="" class="forms">
+
+            <label class="lables" for="jobAge">Enter Age:</label>
+            <input class="inputFeilds" type="number" id="jobAge" placeholder="Enter age"><br> 
+    
+            <label class="lables" for="experience">Enter Experience:</label>
+            <input class="inputFeilds" type="number" id="experience" placeholder="Enter your experience "><br>
+         
+            <label class="lables" for="qualification">Qualification:</label>
+            <select class="inputFeilds" id="qualification">
+              <option value="SSC">SSC</option>
+              <option value="HSC">HSC</option>
+              <option value="Bachelor's Degree">Bachelor's Degree</option>
+              <option value="Master's Degree">Masters's Degree</option>
+            </select><br> 
+
+        <button type="button" id="check" class="button">Check Eligibility</button>
+        </form>
+        <div id="result6" class="result"></div>
+    </section>
+
+    <!-- E-commerce Coupon Redemption -->
+    <section class="containers" >
+        <h1>E-commerce Coupon Redemption</h1>
+        <form action="" class="forms">
+
+            <label class="lables" for="orderAmount">Enter Order Amount:</label>
+            <input class="inputFeilds" type="number" id="orderAmount" placeholder="Enter Order Amount"><br> 
+    
+            <label class="lables" for="coupon">Enter Coupon:</label>
+            <input class="inputFeilds" type="text" id="coupon" placeholder="Enter your coupon "><br>
+
+        <button type="button" id="finalPrice" class="button">Check Price</button>
+        </form>
+        <div id="result7" class="result"></div>
+    </section>
+
+
+    <!-- Fitness Membership Plan -->
+    <section class="containers" >
+        <h1>Fitness Membership Plan</h1>
+        <form action="" class="forms">
+         
+            <label class="lables" for="plan">Select Plan:</label>
+            <select class="inputFeilds" id="plan">
+              <option value="VIP">VIP</option>
+              <option value="Premium">Premium</option>
+              <option value="Basic">Baasic</option>
+            </select><br> 
+
+            <label class="lables" for="wantsTrainer">Do you want trainer ?:</label>
+            <select class="inputFeilds" id="wantsTrainer">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select><br> 
+
+            <label class="lables" for="wantsDietPlan">Do you want diet plan ?:</label>
+            <select class="inputFeilds" id="wantsDietPlan">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select><br> 
+        <button type="button" id="select" class="button">Check Plan</button>
+        </form>
+        <div id="result8" class="result"></div>
+    </section>
+
+    <!-- Electricity Bill Calculation with Peak Hours-->
+    <section class="containers" >
+        <h1>Electricity Bill Calculation with Peak Hours</h1>
+        <form action="" class="forms">
+            <label class="lables" for="units">Enter Units Consumed:</label>
+            <input class="inputFeilds" type="number" id="units" placeholder="Enter Units Consumed"><br> 
+            
+            <label class="lables" for="timeOfDay">Select Time:</label>
+            <select class="inputFeilds" id="timeOfDay">
+              <option value="NormalHours">8 AM - 8 PM</option>
+              <option value="PeakHours">8 PM - 8 AM</option>
+            </select><br>  
+        <button type="button" id="bill" class="button">Check Bill</button>
+        </form>
+        <div id="result9" class="result"></div>
+    </section>
+
+    <!-- Flight Ticket Booking System  -->
+    <section class="containers" >
+        <h1>Flight Ticket Booking System</h1>
+        <form action="" class="forms">
+            
+            <label class="lables" for="classType">Class Type:</label>
+            <select class="inputFeilds" id="classType">
+              <option value="businessClass">Business Class</option>
+              <option value="firstClass">First Class</option>
+            </select><br>  
+
+            <label class="lables" for="luggageWeight">Luggage Weight:</label>
+            <input class="inputFeilds" type="number" id="luggageWeight" placeholder="Enter Luggage Weight"><br>
+            
+            <label class="lables" for="isStudent">Are you student ?</label>
+            <input type="radio" name="discount" id="isStudent" value="student"> <br>
+            
+            <label class="lables" for="isSenior">Are you senior ?</label>
+            <input type="radio" name="discount" id="isSenior" value="senior"> <br>
+        <button type="button" id="flightPrice" class="button">Check Price</button>
+        </form>
+        <div id="result10" class="result"></div>
+    </section>
+
+    
+
+</div>
+
+<script src="./Operations.js"></script>
+</body>
+</html>
