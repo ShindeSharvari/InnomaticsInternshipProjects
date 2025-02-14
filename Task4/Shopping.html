@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="./Shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav id="navbar">
+            <section id="startNav">
+                <!-- For Image And Logo -->
+                <img src="./Images/Logo.png" alt="logo" class="logo">
+                <div class="name">SHOPORIA</div>
+            </section>
+            <div id="hamburger">
+                <!-- For Smaller Devices -->
+                <i class="fas fa-bars"></i>
+            </div>
+            <section id="navOptions" class="hidden">
+                <!-- Navbar Links -->
+                <a href="#smartphones" class="navLinks">Mobile</a>
+                <a href="#laptops" class="navLinks">Laptops</a>
+                <a href="#mobile-accessories" class="navLinks">Mobile Accessories</a>
+                <a href="#kitchen-accessories" class="navLinks">Cookware</a>
+                <a href="#womens-bags" class="navLinks">Handbags</a>
+                <a href="#fragrances" class="navLinks">Fragrances</a>
+            </section>
+            <div id="cartIcon"class="cartIcon">
+                <!-- Cart Icon -->
+                <i class="fas fa-cart-shopping"></i><span id="cartBadge" class="cart-badge">0</span>
+            </div>
+        </nav>
+        
+         <main>
+            <!-- Headers And Product Card -->
+            <section id="smartphones" class="categories">
+              <h2>Smartphones</h2>
+              <div class="productList"></div>
+            </section>
+
+            <section id="laptops" class="categories">
+                <h2>Laptops</h2>
+                <div class="productList"></div>
+              </section>
+
+            <section id="mobile-accessories" class="categories">
+                <h2>Mobile Accessories</h2>
+                <div class="productList"></div>
+            </section>  
+
+            <section id="kitchen-accessories" class="categories">
+                <h2>Cookware</h2>
+                <div class="productList"></div>
+            </section> 
+
+            <section id="womens-bags" class="categories">
+                <h2>Handbags</h2>
+                <div class="productList"></div>
+            </section> 
+
+            <section id="fragrances" class="categories">
+                <h2>Fragrances</h2>
+                <div class="productList"></div>
+            </section> 
+            
+
+            <!-- Card Template Mentioned Here -->
+              <template id="productCardTemplate">
+                <div class="productCard">
+                  <img src="" alt="" class="productImage" />
+                  <div class="cardContent">
+                    <h3 class="productTitle"></h3>
+                    <p class="productPrice"></p>
+                    <button class="addToCart">Add to Cart</button>
+                  </div>
+                </div>
+              </template>
+          </main>
+
+          <!-- OnClick Of Cart Icon This Will Show -->
+          <div id="cartPanel" class="hidden">
+            <button id="closeCart"><i class="fa-solid fa-xmark"></i></button>
+            <table id="cartTable">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="cartItems"></tbody>
+            </table>
+
+            <div id="cartSubtotal">
+              <button class="emptyCart">Empty Cart</button>
+              <p>Subtotal: $<span id="totalCost">0.00</span></p>
+            </div>
+          </div>
+    </header>
+    <script src="./Shopping.js"></script>
+</body>
+</html>
