@@ -28,13 +28,25 @@
     font-weight: bold;
   }
 
-  /* Marguee Tag CSS */
+/* Marquee effect css for slide message */
   .marquee {
-    flex-grow: 1;
-    color: #fd355d;
-    font-weight: bold;
-    margin:0 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 80%;
+    box-sizing: border-box;
+    animation: slide 5s linear infinite;
   }
+
+  @keyframes slide {
+    from {
+      transform: translateX(55%);
+    }
+    to {
+      transform: translateX(-4%);
+    }
+  }
+ 
   
   .homeButton{
     padding:5px 10px;
@@ -73,6 +85,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    -webkit-text-stroke:2px black; 
   }
 
   #Banner1 p{
@@ -390,6 +403,9 @@
     .popup-content {
       width:80vw;
     }
+    #game-footer {
+      font-size:12px;
+    }
 }
 @media (max-width:380px){
   .game-container {
@@ -402,6 +418,9 @@
   }
   .popup-content {
     width:80vw;
+  }
+  #game-footer {
+    font-size:12px;
   }
 }
 
