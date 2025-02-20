@@ -211,6 +211,9 @@ function showEndGamePopup(isWin) {
     currentSound.play();
 
     popup.style.display = "block";
+    
+     // Clear saved game state from local storage
+     localStorage.removeItem("memoryGameState");
 }
 
 
