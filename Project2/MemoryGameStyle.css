@@ -401,9 +401,8 @@ margin: 5px 0;
     font-size:100px;
   }
   #Banner1 p{
-    font-size:35px;
-    font-weight:bold;
- } 
+      font-size:22px;
+  } 
   .grid-container{
     overflow-x: hidden;
   } 
@@ -465,6 +464,14 @@ margin: 5px 0;
 }
 #game-footer {
   font-size:12px;
+}
+  #Banner1 p{
+      font-size:22px;
+      font-weight:bold;
+  } 
+  .playButton{
+  padding:5px;
+  font-size:25px;
 }
 }
 
