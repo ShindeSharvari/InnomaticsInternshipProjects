@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/InnomaticsInternshipProjects/Task5/todo-app/static/css/main.7d7971a2.css",
+    "main.js": "/InnomaticsInternshipProjects/Task5/todo-app/static/js/main.c8026eca.js",
+    "static/js/453.ac79db8d.chunk.js": "/InnomaticsInternshipProjects/Task5/todo-app/static/js/453.ac79db8d.chunk.js",
+    "static/media/Add.wav": "/InnomaticsInternshipProjects/Task5/todo-app/static/media/Add.d5d8ec2285a606e44f86.wav",
+    "index.html": "/InnomaticsInternshipProjects/Task5/todo-app/index.html",
+    "main.7d7971a2.css.map": "/InnomaticsInternshipProjects/Task5/todo-app/static/css/main.7d7971a2.css.map",
+    "main.c8026eca.js.map": "/InnomaticsInternshipProjects/Task5/todo-app/static/js/main.c8026eca.js.map",
+    "453.ac79db8d.chunk.js.map": "/InnomaticsInternshipProjects/Task5/todo-app/static/js/453.ac79db8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7971a2.css",
+    "static/js/main.c8026eca.js"
+  ]
+}
