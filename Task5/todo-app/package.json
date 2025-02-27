@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -d ../../docs/Task5/todo-app"
+    "deploy": "gh-pages -d build -d ./Task5/todo-app"
   },
   "eslintConfig": {
     "extends": [
