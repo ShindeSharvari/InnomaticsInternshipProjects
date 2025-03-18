@@ -48,7 +48,7 @@ const App = () => {
              </p>
              <div class="hero-buttons">
                <button class="btn hire-me"onClick={() => window.location.href = "#contact"}>Hire Me</button>
-               <a href="/ShindeSharvari_7020505673.pdf" download="Sharvari_Sunil_Shinde_Resume.pdf">
+               <a href="/SharvariShinde_7020505673.pdf" download="SharvariShinde_7020505673.pdf">
               <button className="btn resume">Download Resume <i className="bi bi-file-earmark-text"></i></button>
              </a>
              </div>
